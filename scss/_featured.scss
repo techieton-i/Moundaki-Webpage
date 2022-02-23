@@ -1,0 +1,51 @@
+.card {
+  width: 18em;
+  height: 26rem;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // background-color: red;
+  padding-bottom: 1rem;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  &-img {
+    height: 70%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &-title {
+    padding: 1rem 0 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &-text {
+    padding: 0 0 1rem 1rem;
+    color: rgb(139, 139, 139);
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+.pop-mountain {
+  padding: 0 10rem;
+  margin-bottom: 4rem;
+
+  .section-title {
+    width: fit-content;
+    margin: 0 auto 5rem;
+    font-size: 1.6rem;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+  }
+}
