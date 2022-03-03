@@ -3,5 +3,56 @@
   font-size: 1.6rem;
 }
 
+.arrow {
+  background-color: #c5c5c5;
+  margin: 1rem;
+  text-align: center;
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+}
+
+.arrow_right {
+  color: #111;
+  background-color: rgb(194, 162, 22);
+}
+// .arrow_left {
+//   color: #111;
+//   background-color: red;
+// }
+
 .reviews {
+  padding: 5rem 5rem;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5rem 0;
+  }
+}
+
+.user-reviews,
+.arrows {
+  display: flex;
+  justify-content: space-between;
+
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43rem;
+    height: 20rem;
+
+    &-img {
+      width: 50%;
+      height: 110%;
+      object-fit: cover;
+      img {
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+  }
 }
