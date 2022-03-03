@@ -18,7 +18,7 @@ li {
 }
 
 .small-container {
-  max-width: 1080px;
+  max-width: 1580px;
   margin: auto;
   padding: 0 25px;
 }
@@ -522,5 +522,12 @@ img {
   color: #8b8b8b;
   line-height: 1.9rem;
   padding: 1rem 2.75rem 0 0;
+}
+
+.title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=main.css.map */
